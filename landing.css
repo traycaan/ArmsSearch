@@ -90,7 +90,8 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 44px 510px 0 114px;
+  font-weight: 700;
+  margin: 44px 443px 0 114px;
 }
 
 .u-section-1 .u-custom-html-1 {
@@ -100,6 +101,7 @@
 }
 
 .u-section-1 .u-text-2 {
+  font-weight: 700;
   margin: 51px 51px 0 454px;
 }
 
@@ -120,7 +122,7 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 471px;
+    margin-right: 404px;
     margin-left: 103px;
   }
 
@@ -140,7 +142,7 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 366px;
+    margin-right: 299px;
     margin-left: 77px;
   }
 
@@ -162,7 +164,7 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 166px;
+    margin-right: 99px;
     margin-left: 48px;
   }
 
