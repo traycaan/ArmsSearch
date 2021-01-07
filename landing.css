@@ -82,16 +82,26 @@
   width: 798px;
   min-height: 390px;
   background-image: none;
-  margin: -545px auto 0;
+  margin: -545px auto 60px;
 }
 
 .u-section-1 .u-container-layout-1 {
   padding: 0;
 }
 
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  margin: 12px 12px 0 auto;
+  padding: 0 15px 0 13px;
+}
+
+.u-section-1 .u-icon-1 {
+  font-size: 1.5em;
+}
+
 .u-section-1 .u-text-1 {
   font-weight: 700;
-  margin: 94px 479px 0 79px;
+  margin: 44px 479px 0 79px;
 }
 
 .u-section-1 .u-custom-html-1 {
@@ -105,17 +115,6 @@
   margin: 45px 79px 0 426px;
 }
 
-.u-section-1 .u-btn-1 {
-  border-style: none;
-  width: 52px;
-  margin: -536px calc(((100% - 1140px) / 2) + 36px) 60px auto;
-  padding: 0 15px 0 13px;
-}
-
-.u-section-1 .u-icon-1 {
-  font-size: 1.5em;
-}
-
 @media (max-width: 1199px) {
   .u-section-1 {
     min-height: 578px;
@@ -125,16 +124,17 @@
     margin-right: calc(((100% - 1140px) / 2) + 71px);
   }
 
+  .u-section-1 .u-btn-1 {
+    width: 52px;
+    margin-right: calc(((100% - 940px) / 2) + 35px);
+  }
+
   .u-section-1 .u-custom-html-1 {
     height: auto;
   }
 
   .u-section-1 .u-text-2 {
     width: 293px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-right: calc(((100% - 940px) / 2) + 36px);
   }
 }
 
@@ -148,7 +148,13 @@
     margin-right: calc(((100% - 1140px) / 2));
   }
 
+  .u-section-1 .u-btn-1 {
+    margin-top: 91px;
+    margin-right: calc(((100% - 720px) / 2) + 35px);
+  }
+
   .u-section-1 .u-text-1 {
+    margin-top: -35px;
     margin-right: 440px;
     margin-left: 103px;
   }
@@ -161,10 +167,6 @@
     margin-right: 112px;
     margin-left: 387px;
   }
-
-  .u-section-1 .u-btn-1 {
-    margin-right: calc(((100% - 720px) / 2) + 36px);
-  }
 }
 
 @media (max-width: 767px) {
@@ -176,7 +178,13 @@
     width: 540px;
   }
 
+  .u-section-1 .u-btn-1 {
+    margin-top: -14px;
+    margin-right: calc(((100% - 540px) / 2) + 35px);
+  }
+
   .u-section-1 .u-text-1 {
+    margin-top: 70px;
     margin-right: 300px;
     margin-left: 77px;
   }
@@ -188,10 +196,6 @@
   .u-section-1 .u-text-2 {
     margin-right: 84px;
     margin-left: 247px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-right: calc(((100% - 540px) / 2) + 36px);
   }
 }
 
@@ -206,7 +210,13 @@
     width: auto;
   }
 
+  .u-section-1 .u-btn-1 {
+    margin-top: -42px;
+    margin-right: calc(((100% - 340px) / 2) + 35px);
+  }
+
   .u-section-1 .u-text-1 {
+    margin-top: 98px;
     margin-right: 100px;
     margin-left: 48px;
   }
@@ -218,9 +228,5 @@
   .u-section-1 .u-text-2 {
     margin-right: 53px;
     margin-left: 47px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-right: calc(((100% - 340px) / 2) + 36px);
   }
 }
