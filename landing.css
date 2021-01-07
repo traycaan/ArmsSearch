@@ -82,8 +82,7 @@
   width: 798px;
   min-height: 390px;
   background-image: none;
-  height: auto;
-  margin: -545px auto 60px;
+  margin: -545px auto 0;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -92,31 +91,43 @@
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
-  margin: 44px 443px 0 114px;
+  margin: 94px 479px 0 79px;
 }
 
 .u-section-1 .u-custom-html-1 {
   min-height: 40px;
   width: 798px;
-  margin: 44px 0 0;
+  margin: 45px 0 0;
 }
 
 .u-section-1 .u-text-2 {
   font-weight: 700;
-  margin: 51px 51px 0 454px;
+  margin: 45px 79px 0 426px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: none;
+  margin: -517px calc(((100% - 1140px) / 2) + 28px) 60px auto;
+  padding: 2px 20px 3px 19px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 {
-    min-height: 879px;
-  }
-
   .u-section-1 .u-group-1 {
     margin-right: calc(((100% - 1140px) / 2) + 71px);
   }
 
   .u-section-1 .u-custom-html-1 {
     height: auto;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 293px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    width: 111px;
+    margin-right: calc(((100% - 940px) / 2));
   }
 }
 
@@ -127,7 +138,7 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 404px;
+    margin-right: 440px;
     margin-left: 103px;
   }
 
@@ -137,7 +148,11 @@
 
   .u-section-1 .u-text-2 {
     margin-right: 112px;
-    margin-left: 415px;
+    margin-left: 387px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: calc(((100% - 720px) / 2));
   }
 }
 
@@ -147,7 +162,7 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 299px;
+    margin-right: 300px;
     margin-left: 77px;
   }
 
@@ -159,6 +174,10 @@
     margin-right: 84px;
     margin-left: 247px;
   }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: calc(((100% - 540px) / 2));
+  }
 }
 
 @media (max-width: 575px) {
@@ -169,7 +188,7 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 99px;
+    margin-right: 100px;
     margin-left: 48px;
   }
 
@@ -180,5 +199,9 @@
   .u-section-1 .u-text-2 {
     margin-right: 53px;
     margin-left: 47px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: calc(((100% - 340px) / 2));
   }
 }
