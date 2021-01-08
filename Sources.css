@@ -4,7 +4,16 @@
 
 .u-section-1 .u-btn-1 {
   border-style: none;
-  margin: 20px 0 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 20px auto 0 242px;
+  padding: 6px 13px 7px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  margin: -38px 0 0;
   padding: 0 15px 0 13px;
 }
 
@@ -12,7 +21,7 @@
   font-size: 1.5em;
 }
 
-.u-section-1 .u-btn-2 {
+.u-section-1 .u-btn-3 {
   border-style: none;
   font-weight: 700;
   text-transform: uppercase;
@@ -22,7 +31,17 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-btn-2 {
+  .u-section-1 .u-btn-1 {
+    margin-left: 42px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-btn-1 {
     margin-left: 0;
   }
 }.u-section-2 .u-sheet-1 {
