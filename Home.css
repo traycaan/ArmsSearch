@@ -30,13 +30,24 @@
   padding: 6px 10px 7px 9px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
+  .u-section-1 .u-btn-1 {
+    margin-right: auto;
+  }
+
   .u-section-1 .u-btn-2 {
-    margin-left: 0;
+    margin-right: 198px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-btn-3 {
-    margin-left: 0;
+    margin-left: 72px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 500px;
