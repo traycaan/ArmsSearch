@@ -127,9 +127,14 @@
 
 .u-section-4 .u-custom-html-1 {
   min-height: 607px;
-  height: auto;
   width: 662px;
   margin: 18px auto 46px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-4 .u-custom-html-1 {
+    height: auto;
+  }
 }
 
 @media (max-width: 767px) {
