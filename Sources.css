@@ -2128,7 +2128,6 @@
 .u-section-17 .u-layout-wrap-1 {
   margin-top: 60px;
   margin-bottom: 0;
-  width: 1140px;
 }
 
 .u-section-17 .u-layout-cell-1 {
@@ -2143,6 +2142,8 @@
   width: 325px;
   height: 325px;
   object-position: 57.43% 50%;
+  background-image: url("images/2021-01-1314_37_30-ThinlineWeapons-Brave.png");
+  background-position: 50% 50%;
   margin: 0 auto;
 }
 
@@ -2181,10 +2182,6 @@
 @media (max-width: 1199px) {
   .u-section-17 .u-sheet-1 {
     min-height: 452px;
-  }
-
-  .u-section-17 .u-layout-wrap-1 {
-    width: auto;
   }
 
   .u-section-17 .u-layout-cell-1 {
@@ -2421,6 +2418,8 @@
 .u-section-19 .u-image-1 {
   width: 325px;
   height: 325px;
+  background-image: url("images/titel1.gif");
+  background-position: 50% 50%;
   margin: 0 auto;
 }
 
