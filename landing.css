@@ -2,7 +2,7 @@
   margin-right: 0;
   margin-left: 0;
   width: 1300px;
-  background-image: none;
+  background-image: url("images/default-image.jpg");
   min-height: 850px;
 }
 
