@@ -184,7 +184,6 @@
 
   .u-section-1 .u-custom-html-1 {
     min-height: 94px;
-    margin-right: 2px;
     margin-left: 30px;
   }
 }
@@ -217,9 +216,10 @@
   }
 
   .u-section-1 .u-custom-html-1 {
-    min-height: 46px;
+    min-height: 123px;
     margin-right: 21px;
     margin-left: 41px;
+    width: 461px;
   }
 }
 
@@ -236,9 +236,8 @@
   }
 
   .u-section-1 .u-text-1 {
+    width: 341px;
     margin-top: 68px;
-    margin-right: 20px;
-    margin-left: 0;
   }
 
   .u-section-1 .u-group-2 {

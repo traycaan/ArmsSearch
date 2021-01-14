@@ -31221,7 +31221,12 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
   }
 }
-
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    width: auto;
+    height: 32px;
+  }
+}
 .u-footer {
   background-image: none;
 }
