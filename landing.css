@@ -129,85 +129,98 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-gallery-1 {
+    width: calc(((100% - 940px) / 2) + 858px);
+    margin-right: auto;
+    margin-left: 0;
+  }
+
   .u-section-1 .u-group-1 {
-    width: 944px;
-    margin-left: calc(((100% - 940px) / 2) + -131px);
+    width: calc(((100% - 940px) / 2) + 848px);
+    margin-top: -633px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-btn-1 {
-    width: 52px;
-    margin-top: 0;
-    margin-left: 809px;
-  }
-
-  .u-section-1 .u-text-1 {
-    width: 707px;
-    margin-top: -8px;
-  }
-
-  .u-section-1 .u-group-2 {
-    width: 975px;
-    margin-left: calc(((100% - 940px) / 2) + -162px);
-  }
-
-  .u-section-1 .u-custom-html-1 {
-    min-height: 124px;
-    height: auto;
-    margin-left: 13px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-group-1 {
-    width: 720px;
-    min-height: 252px;
-    margin-left: calc(((100% - 720px) / 2) + -239px);
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 33px;
-    margin-right: 51px;
+    margin-top: 21px;
+    margin-right: 70px;
     margin-left: auto;
   }
 
   .u-section-1 .u-text-1 {
     width: auto;
-    margin-top: 16px;
-    margin-right: 136px;
-    margin-left: 91px;
+    margin-top: -29px;
+    margin-right: 201px;
+    margin-left: 165px;
   }
 
   .u-section-1 .u-group-2 {
-    width: calc(((100% - 720px) / 2) + 481px);
+    width: calc(((100% - 940px) / 2) + 858px);
+    margin-top: 79px;
+    margin-bottom: 166px;
     margin-left: 0;
   }
 
   .u-section-1 .u-custom-html-1 {
-    min-height: 94px;
-    margin-left: 30px;
+    height: auto;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-gallery-1 {
+    width: calc(((100% - 720px) / 2) + 531px);
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 720px) / 2) + 481px);
+    min-height: 188px;
+    margin-top: -651px;
+  }
+
+  .u-section-1 .u-group-2 {
+    width: 721px;
+    margin-top: 29px;
+    margin-bottom: 60px;
+    margin-left: calc(((100% - 720px) / 2) + -240px);
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 681px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-gallery-1 {
+    width: calc(((100% - 540px) / 2) + 259px);
+  }
+
   .u-section-1 .u-group-1 {
-    width: 540px;
-    min-height: 377px;
-    margin-left: calc(((100% - 540px) / 2) + -329px);
+    width: 545px;
+    min-height: 299px;
+    margin-top: -722px;
+    margin-left: calc(((100% - 540px) / 2) + -333px);
   }
 
   .u-section-1 .u-btn-1 {
-    margin-right: 30px;
+    margin-top: 27px;
+    margin-right: 40px;
   }
 
   .u-section-1 .u-text-1 {
-    width: 420px;
-    margin-top: 52px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 15px;
+    margin-right: 97px;
+    margin-left: 92px;
   }
 
   .u-section-1 .u-group-2 {
-    width: calc(((100% - 540px) / 2) + 239px);
+    width: 545px;
+    margin-top: 40px;
+    margin-left: calc(((100% - 540px) / 2) + -333px);
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -216,38 +229,40 @@
   }
 
   .u-section-1 .u-custom-html-1 {
-    min-height: 123px;
-    margin-right: 21px;
-    margin-left: 41px;
-    width: 461px;
+    width: 525px;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-gallery-1 {
+    width: calc(((100% - 340px) / 2) + -41px);
+  }
+
   .u-section-1 .u-group-1 {
-    width: calc(((100% - 340px) / 2) + -39px);
-    margin-left: 0;
+    width: 341px;
+    margin-top: -709px;
+    margin-left: calc(((100% - 340px) / 2) + -431px);
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 31px;
-    margin-right: auto;
-    margin-left: 322px;
+    margin-top: 13px;
+    margin-right: 27px;
   }
 
   .u-section-1 .u-text-1 {
-    width: 341px;
-    margin-top: 68px;
+    margin-top: 29px;
+    margin-right: 13px;
+    margin-left: 27px;
   }
 
   .u-section-1 .u-group-2 {
-    width: calc(((100% - 340px) / 2) + -39px);
+    width: 341px;
+    margin-top: 44px;
+    margin-left: calc(((100% - 340px) / 2) + -431px);
   }
 
   .u-section-1 .u-custom-html-1 {
-    width: 341px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 321px;
   }
 }.width{
 	width: 100%

@@ -31209,13 +31209,13 @@ a.u-link.u-text-hover-grey-90:hover {
   max-width: 138px;
   max-height: 138px;
 }
-@media (max-width: 1199px) {
+
+@media (max-width: 991px) {
   .u-header .u-image-1 {
     width: 64px;
     height: 32px;
   }
 }
-
 @media (max-width: 767px) {
   .u-header .u-image-1 {
     width: auto;
@@ -31223,8 +31223,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-image-1 {
-    width: auto;
-    height: 32px;
+    width: 64px;
   }
 }
 .u-footer {
