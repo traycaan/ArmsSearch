@@ -60,12 +60,18 @@
 }
 
 .u-section-2 .u-text-1 {
-  width: 446px;
+  width: 561px;
   margin: 50px auto;
 }
 
 .u-section-2 .u-btn-1 {
   padding: 0;
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-text-1 {
+    width: 540px;
+  }
 }
 
 @media (max-width: 575px) {
